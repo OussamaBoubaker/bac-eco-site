@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>BAC Économie – Cours en ligne</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f2f5;
+    }
+
+    header {
+      background: linear-gradient(90deg, #003973, #e5e5be);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      color: #003973;
+    }
+
+    .chapters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-left: 6px solid #003973;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+      border-radius: 8px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      color: #003973;
+    }
+
+    .card p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #444;
+    }
+
+    .card a {
+      text-decoration: none;
+      background: #003973;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #003973;
+      color: white;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📘 BAC Économie</h1>
+    <p>Bienvenue sur votre plateforme de révision pour le baccalauréat économique</p>
+  </header>
+
+  <main>
+    <h2>📑 Sommaire des chapitres</h2>
+    <div class="chapters">
+
+      <!-- Chapitre 1 -->
+      <div class="card">
+        <h3>Chapitre 1 : Notions de base</h3>
+        <p>Introduction à l’économie : besoins, rareté, choix et agents économiques.</p>
+        <a href="chapitre1.html">Voir le chapitre</a>
+      </div>
+
+      <!-- Chapitre 2 (placeholder) -->
+      <div class="card">
+        <h3>Chapitre 2 : Le marché</h3>
+        <p>Comprendre le fonctionnement du marché, l’offre et la demande, et les prix.</p>
+        <a href="#">Bientôt disponible</a>
+      </div>
+
+      <!-- Chapitre 3 (placeholder) -->
+      <div class="card">
+        <h3>Chapitre 3 : Production et coûts</h3>
+        <p>Comment les entreprises produisent et prennent des décisions économiques.</p>
+        <a href="#">Bientôt disponible</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2025 - Site éducatif BAC Éco • par Professeur Bilel 
+  </footer>
+
+</body>
+</html>
